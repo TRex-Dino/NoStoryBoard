@@ -14,6 +14,9 @@
 		0A1FE70F268B43B000E728DD /* NoStoryBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FE70D268B43B000E728DD /* NoStoryBoard.xcdatamodeld */; };
 		0A1FE711268B43B000E728DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FE710268B43B000E728DD /* Assets.xcassets */; };
 		0A1FE714268B43B000E728DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FE712268B43B000E728DD /* LaunchScreen.storyboard */; };
+		0AE4CD66268C5F0700BD874D /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4CD65268C5F0700BD874D /* SwipingController.swift */; };
+		0AE4CD68268C654E00BD874D /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4CD67268C654E00BD874D /* PageCell.swift */; };
+		0AE4CD6A268C6BCF00BD874D /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4CD69268C6BCF00BD874D /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0A1FE710268B43B000E728DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1FE713268B43B000E728DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1FE715268B43B000E728DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE4CD65268C5F0700BD874D /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		0AE4CD67268C654E00BD874D /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		0AE4CD69268C6BCF00BD874D /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				0A1FE704268B43B000E728DD /* AppDelegate.swift */,
 				0A1FE706268B43B000E728DD /* SceneDelegate.swift */,
 				0A1FE708268B43B000E728DD /* ViewController.swift */,
+				0AE4CD65268C5F0700BD874D /* SwipingController.swift */,
+				0AE4CD69268C6BCF00BD874D /* Page.swift */,
+				0AE4CD67268C654E00BD874D /* PageCell.swift */,
 				0A1FE70A268B43B000E728DD /* Main.storyboard */,
 				0A1FE710268B43B000E728DD /* Assets.xcassets */,
 				0A1FE712268B43B000E728DD /* LaunchScreen.storyboard */,
@@ -142,7 +151,10 @@
 			files = (
 				0A1FE709268B43B000E728DD /* ViewController.swift in Sources */,
 				0A1FE705268B43B000E728DD /* AppDelegate.swift in Sources */,
+				0AE4CD68268C654E00BD874D /* PageCell.swift in Sources */,
 				0A1FE707268B43B000E728DD /* SceneDelegate.swift in Sources */,
+				0AE4CD6A268C6BCF00BD874D /* Page.swift in Sources */,
+				0AE4CD66268C5F0700BD874D /* SwipingController.swift in Sources */,
 				0A1FE70F268B43B000E728DD /* NoStoryBoard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
